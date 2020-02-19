@@ -4,7 +4,7 @@ abstract class Shape
 {
 	abstract void draw();
 }
-
+//hggh
 class Line extends Shape
 {
 	public void draw()
