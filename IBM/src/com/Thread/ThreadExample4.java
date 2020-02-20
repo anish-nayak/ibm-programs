@@ -1,5 +1,5 @@
 package com.Thread;
-
+//thread group
 public class ThreadExample4 extends Thread implements Runnable{
 
 	Thread t1, t2;
