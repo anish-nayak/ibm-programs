@@ -15,11 +15,11 @@ public class assignment7 {
 		map.put(3, "c");
 		map.put(4, "d");
 		map.put(5, "e");
-		Consumer <StringBuilder> c = l ->
+		/*Consumer <StringBuilder> c = l ->
 		{
 			System.out.println(l);			
-		};
-		
+		};*/
+		Consumer <StringBuilder> c=(System.out::println);
 		function (map,c);
 
 	}
