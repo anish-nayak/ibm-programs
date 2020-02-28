@@ -18,7 +18,8 @@ public class assignment6 {
 		list.add("ggggggg");
 		list.add("hhhhhhhh");
 		
-		UnaryOperator<String> e = (String text) -> { return text.toUpperCase();} ;
+		//UnaryOperator<String> e = (String text) -> { return text.toUpperCase();} ;
+		UnaryOperator<String> e =(String::toUpperCase);
 		list.replaceAll(e);	
 		
 		for(String x: list)
